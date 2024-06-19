@@ -1,0 +1,18 @@
+name: db-setup
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - xopen>=1.7
+  - lxml>=4.9.3,<5.0
+  - hmmer>=3.3.2
+  - bioawk>=1.0
+  - pigz>=2.6
+  - curl>=8.2.1
+  - tar>=1.34
+  - gawk>=5.1.0
+  - grep>=3.11
+  - rename>=1.601
+  - wget>=1.20.3
+  - diamond>=2.1.8

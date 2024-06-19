@@ -1,0 +1,8 @@
+name: sorf
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - polars>=0.19
+  - krona>=2.8.1

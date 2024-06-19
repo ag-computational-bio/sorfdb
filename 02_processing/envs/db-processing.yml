@@ -1,0 +1,15 @@
+name: sorf
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10.12
+  - xopen>=1.7
+  - ijson>=3.2.3
+  - biopython>=1.81
+  - pyrodigal>=2.1.0,<3.0.0
+  - pyhmmer>=0.9.0
+  - diamond>=2.1.8
+  - peptides>=0.3.1
+  - polars>=0.16.14,<0.19
+  - jq>=1.6
