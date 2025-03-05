@@ -274,7 +274,6 @@ def main():
                                                  cutoff='gathering',
                                                  best_hit=True,
                                                  threads=threads),
-                               evalue=1E-5,
                                prefix='antifam')
 
     if remove_antifam:
@@ -287,7 +286,6 @@ def main():
                                               cutoff='gathering',
                                               best_hit=False,
                                               threads=threads),
-                            evalue=1E-5,
                             prefix='pfam')
 
     del proteins
